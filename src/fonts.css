@@ -1,0 +1,131 @@
+/* Bold */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-Bold.eot');
+    src: url('/public/fonts/IntegralCF-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-Bold.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bold Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-BoldOblique.eot');
+    src: url('/public/fonts/IntegralCF-BoldOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-BoldOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* DemiBold */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-DemiBold.eot');
+    src: url('/public/fonts/IntegralCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-DemiBold.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-DemiBold.woff') format('woff');
+    font-weight: 600; /* DemiBold is often mapped to 600 */
+    font-style: normal;
+}
+
+/* DemiBold Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-DemiBoldOblique.eot');
+    src: url('/public/fonts/IntegralCF-DemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-DemiBoldOblique.woff') format('woff');
+    font-weight: 600; /* DemiBold is often mapped to 600 */
+    font-style: oblique;
+}
+
+/* ExtraBold */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-ExtraBold.eot');
+    src: url('/public/fonts/IntegralCF-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-ExtraBold.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-ExtraBold.woff') format('woff');
+    font-weight: 800; /* ExtraBold is often mapped to 800 */
+    font-style: normal;
+}
+
+/* ExtraBold Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-ExtraBoldOblique.eot');
+    src: url('/public/fonts/IntegralCF-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-ExtraBoldOblique.woff') format('woff');
+    font-weight: 800; /* ExtraBold is often mapped to 800 */
+    font-style: oblique;
+}
+
+/* Heavy */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-Heavy.eot');
+    src: url('/public/fonts/IntegralCF-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-Heavy.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-Heavy.woff') format('woff');
+    font-weight: 900; /* Heavy is often mapped to 900 */
+    font-style: normal;
+}
+
+/* Heavy Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-HeavyOblique.eot');
+    src: url('/public/fonts/IntegralCF-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-HeavyOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-HeavyOblique.woff') format('woff');
+    font-weight: 900; /* Heavy is often mapped to 900 */
+    font-style: oblique;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-Medium.eot');
+    src: url('/public/fonts/IntegralCF-Medium.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-Medium.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-Medium.woff') format('woff');
+    font-weight: 500; /* Medium is often mapped to 500 */
+    font-style: normal;
+}
+
+/* Medium Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-MediumOblique.eot');
+    src: url('/public/fonts/IntegralCF-MediumOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-MediumOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-MediumOblique.woff') format('woff');
+    font-weight: 500; /* Medium is often mapped to 500 */
+    font-style: oblique;
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-Regular.eot');
+    src: url('/public/fonts/IntegralCF-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-Regular.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Regular Oblique */
+@font-face {
+    font-family: 'Integral CF';
+    src: url('/public/fonts/IntegralCF-RegularOblique.eot');
+    src: url('/public/fonts/IntegralCF-RegularOblique.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/IntegralCF-RegularOblique.woff2') format('woff2'),
+         url('/public/fonts/IntegralCF-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}

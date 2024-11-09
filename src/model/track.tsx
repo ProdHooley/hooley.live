@@ -1,39 +1,65 @@
 export interface TrackProps {
     id: string;
+    imageId: string;
     title: string;
     artist: string;
-    url: string;
+    length: string;
+    thumbnail: string;
+    youtube: string;
+    spotify: string | null;
 }
 
 export const TRACKS: TrackProps[] = [
     {
-        id: 'song-1',
+        id: 'ethernity',
+        imageId: 'song-1',
         title: 'Ethernity',
         artist: 'Hooley',
-        url: 'https://www.youtube.com/watch?v=tx5wZK6pnjM'
+        length: '5:03',
+        thumbnail: '/public/img/song1.jpg',
+        youtube: 'https://www.youtube.com/watch?v=tx5wZK6pnjM',
+        spotify:
+            'https://open.spotify.com/album/1rO9gcuoljEQdgXlb5CS2a?si=z7KCtC_qT0y_IUSHAT0XRg',
     },
     {
-        id: 'song-2',
+        id: 'peter-pan-was-right',
+        imageId: 'song-2',
         title: 'Peter pan was right',
         artist: 'Hooley',
-        url: 'https://www.youtube.com/watch?v=ll9kEQzJuYM'
+        length: '3:55',
+        thumbnail: '/public/img/song2.jpg',
+        youtube: 'https://www.youtube.com/watch?v=ll9kEQzJuYM',
+        spotify: null,
     },
     {
-        id: 'song-3',
+        id: 'is-this-real',
+        imageId: 'song-3',
         title: 'Is this real?',
         artist: 'Hooley',
-        url: 'https://www.youtube.com/watch?v=RP2LdhktMq0'
+        length: '3:09',
+        thumbnail: '/public/img/song3.jpg',
+        youtube: 'https://www.youtube.com/watch?v=RP2LdhktMq0',
+        spotify:
+            'https://open.spotify.com/album/6fEoodkuS6QOFcrHaUVpwE?si=lgwp_8FfSjKyoJ0DbXkk4A',
     },
     {
-        id: 'song-4',
+        id: 'face-fabc',
+        imageId: 'song-4',
         title: 'FACE FABC (Cover)',
         artist: 'Hooley',
-        url: 'https://www.youtube.com/watch?v=dygEktoGaw0'
+        length: '1:38',
+        thumbnail: '/public/img/song4.jpg',
+        youtube: 'https://www.youtube.com/watch?v=dygEktoGaw0',
+        spotify: null
     },
     {
-        id: 'song-5',
+        id: 'awakening',
+        imageId: 'song-5',
         title: 'Awakening',
         artist: 'Hooley x Berci',
-        url: 'https://www.youtube.com/watch?v=x-FCh9V1-00'
-    }
+        length: '1:59',
+        thumbnail: '/public/img/song5.jpg',
+        youtube: 'https://www.youtube.com/watch?v=x-FCh9V1-00',
+        spotify: null
+    },
 ];

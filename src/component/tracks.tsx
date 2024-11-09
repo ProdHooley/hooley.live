@@ -3,22 +3,26 @@ import { ArrowLeft } from '../asset/arrow-left';
 import { ArrowRight } from '../asset/arrow-right';
 import { handleMouseHover } from '../effect/hover';
 import { TrackProps, TRACKS } from '../model/track';
+import { useNavigate } from 'react-router-dom';
 
 const TRACKS_PER_PAGE = 3;
 
-const Track = (props: TrackProps) => (
+const Track = (props: TrackProps) => {
+    const navigate = useNavigate();
+    return (
     <div
         className="card"
-        id={props.id}
+        id={props.imageId}
         onMouseMove={handleMouseHover}
-        onClick={() => window.open(props.url, '_blank', 'noopener,noreferrer')}>
+        onClick={() => navigate("/preview/" + props.id)}>
         <div className="card-content">
             <div className="img"></div>
             <h1>{props.title}</h1>
             <p>{props.artist}</p>
         </div>
     </div>
-);
+    )
+};
 
 export const Tracks = () => {
     const [cursor, setCursor] = useState(0);
