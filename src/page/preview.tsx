@@ -1,15 +1,14 @@
 import { Spotify } from 'react-spotify-embed';
 import { SpotifyIcon } from '../asset/spotify';
 import { YoutubeIcon } from '../asset/youtube';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 import { TRACKS } from '../model/track';
 
 export const Preview = () => {
     const { id } = useParams();
-    const navigate = useNavigate();
 
     const track = TRACKS.find(track => track.id === id);
-    if (!track) navigate('/not-found', { replace: true });
+    if (!track) return <Navigate to="/not-found" replace={true} />;
 
     return (
         <div className="preview-parent" id={track.imageId}>
