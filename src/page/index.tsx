@@ -1,4 +1,4 @@
-import { Contact } from '../component/contaxt';
+import { Contact } from '../component/contact';
 import { Footer } from '../component/footer';
 import { Hero } from '../component/hero';
 import { Nav } from '../component/nav';

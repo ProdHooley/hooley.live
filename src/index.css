@@ -294,3 +294,60 @@ a {
 .footer .content a {
     color: #09fcfc;
 }
+
+.not-found * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.not-found .container {
+    height: 100vh;
+    width: 100%;
+    background: rgb(98, 65, 69);
+    background: linear-gradient(
+        160deg,
+        rgba(98, 65, 69, 1) 0%,
+        rgba(2, 2, 3, 1) 70%
+    );
+}
+
+.not-found .filter {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found .content {
+    height: auto;
+    width: auto;
+}
+
+.not-found p,
+h1 {
+    color: white;
+}
+
+.not-found h1 {
+    font-size: 60px;
+}
+
+.not-found p {
+    font-size: 25px;
+    color: #dbdbdb;
+}
+
+.not-found .back {
+    position: fixed;
+    height: 30px;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.not-found .back a {
+    text-decoration: none;
+    color: #dbdbdb;
+}
