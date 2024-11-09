@@ -1,11 +1,5 @@
-import { handleMouseHover } from "../effect/hover";
-
-interface TrackProps {
-    id: string;
-    title: string;
-    artist: string;
-    url: string;
-}
+import { handleMouseHover } from '../effect/hover';
+import { TrackProps, TRACKS } from '../model/track';
 
 const Track = (props: TrackProps) => (
     <div
@@ -29,24 +23,9 @@ export const Tracks = () => (
                 <p>New tracks</p>
             </div>
             <div id="cards">
-                <Track
-                    id="song-1"
-                    title="Ethernity"
-                    artist="Hooley"
-                    url="https://www.youtube.com/watch?v=tx5wZK6pnjM"
-                />
-                <Track
-                    id="song-2"
-                    title="Peter pan was right"
-                    artist="Hooley"
-                    url="https://www.youtube.com/watch?v=ll9kEQzJuYM"
-                />
-                <Track
-                    id="song-3"
-                    title="Is this real?"
-                    artist="Hooley"
-                    url="https://www.youtube.com/watch?v=RP2LdhktMq0"
-                />
+                {TRACKS.map(track => (
+                    <Track {...track} />
+                ))}
             </div>
         </div>
     </div>
