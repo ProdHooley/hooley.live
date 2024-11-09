@@ -4,6 +4,23 @@ import { YoutubeIcon } from '../asset/youtube';
 import { Navigate, useParams } from 'react-router-dom';
 import { TRACKS } from '../model/track';
 
+const YoutubeEmbed = ({ url }) => {
+    const id = url.split('v=')[1];
+    return (
+        <div className="video-responsive">
+            <iframe
+                width={426}
+                height={240}
+                src={`https://www.youtube.com/embed/${id}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+            />
+        </div>
+    );
+};
+
 export const Preview = () => {
     const { id } = useParams();
 
@@ -27,6 +44,11 @@ export const Preview = () => {
                                 {track.spotify && (
                                     <div className="spotify">
                                         <Spotify wide link={track.spotify} />
+                                    </div>
+                                )}
+                                {!track.spotify && track.youtube && (
+                                    <div className="youtube">
+                                        <YoutubeEmbed url={track.youtube} />
                                     </div>
                                 )}
                             </div>

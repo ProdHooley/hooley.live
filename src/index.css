@@ -3,8 +3,8 @@
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    display: none;
+    width: 0;
+    display: none !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,7 +33,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    overflow: scroll;
+    overflow: auto;
 }
 
 a {
@@ -560,7 +560,7 @@ h1 {
 }
 
 .preview .links a:not(.preview .links a:last-of-type) {
-    margin-right: 40px;
+    margin-right: 43px;
 }
 
 .preview h1 {
@@ -579,10 +579,42 @@ h1 {
     width: 400px;
 }
 
+.preview .youtube {
+    margin-top: 70px;
+}
+
+.preview .youtube iframe {
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.082),
+        0 6px 20px 0 rgba(0, 0, 0, 0.059);
+    border-radius: 10px;
+}
+
+@media (max-width: 463px) {
+    .preview .youtube iframe {
+        width: calc(426px*0.8);
+        height: calc(240px*0.8);
+    }
+}
+
+@media (max-width: 463px) {
+    .preview .youtube iframe {
+        width: calc(426px*0.8);
+        height: calc(240px*0.8);
+    }
+}
+
+@media (max-width: 376px) {
+    .preview .youtube iframe {
+        width: calc(426px*0.7);
+        height: calc(240px*0.7);
+    }
+}
+
 .preview .return {
     position: fixed;
     bottom: 10px;
-    left: 13px;
+    left: 16px;
 }
 
 .preview .return a {
