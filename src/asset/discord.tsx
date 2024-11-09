@@ -1,4 +1,4 @@
-export const DiscordIcon = ({ color }: { color: string }) => (
+export const DiscordIcon = () => (
     <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,6 @@ export const DiscordIcon = ({ color }: { color: string }) => (
         </metadata>
         <g
             transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-            fill={color}
             stroke="none">
             <path
                 d="M996 2594 c-149 -29 -349 -111 -517 -211 -73 -43 -85 -55 -121 -116

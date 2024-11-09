@@ -1,4 +1,4 @@
-export const SpotifyIcon = ({ color }: { color: string }) => (
+export const SpotifyIcon = () => (
     <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,6 @@ export const SpotifyIcon = ({ color }: { color: string }) => (
         </metadata>
         <g
             transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-            fill={color}
             stroke="none">
             <path
                 d="M1295 2984 c-346 -53 -628 -197 -867 -442 -325 -335 -478 -794 -412

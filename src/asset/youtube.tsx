@@ -1,4 +1,4 @@
-export const YoutubeIcon = ({ color }: { color: string }) => (
+export const YoutubeIcon = () => (
     <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,6 @@ export const YoutubeIcon = ({ color }: { color: string }) => (
         </metadata>
         <g
             transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-            fill={color}
             stroke="none">
             <path
                 d="M1065 2570 c-624 -24 -757 -51 -886 -180 -141 -141 -173 -302 -173

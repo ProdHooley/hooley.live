@@ -146,6 +146,10 @@ a {
     box-sizing: border-box;
 }
 
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.082), 0 6px 20px 0 rgba(255, 255, 255, 0.059);
+}
+
 .card img {
     box-sizing: border-box;
     width: 100%;
@@ -218,6 +222,81 @@ a {
     z-index: 2;
 }
 
+.button-desktop {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    fill: white;
+}
+
+.button-desktop svg {
+    width: 20px;
+    height: auto;
+}
+
+.button-desktop.inactive {
+    cursor: not-allowed;
+}
+
+.button-desktop:hover svg {
+    fill: #b7b6b6;
+}
+
+@media (max-width: 917px) {
+    .button-desktop {
+        display: none;
+    }
+    .buttons-mobile {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact svg {
+        width: 35px !important;
+    }
+}
+
+@media (max-width: 431px) {
+    .footer {
+        margin-bottom: 15px;
+    }
+}
+
+.buttons-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: none;
+}
+
+.buttons-mobile svg {
+    width: 20px;
+    height: auto;
+    fill: white;
+}
+
+.buttons-mobile .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+}
+
+.buttons-mobile .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 #song-1 .img {
     background: url('/public/img/song1.jpg');
     background-position: center;
@@ -232,6 +311,18 @@ a {
 
 #song-3 .img {
     background: url('/public/img/song3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#song-4 .img {
+    background: url('/public/img/song4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#song-5 .img {
+    background: url('/public/img/song5.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -258,8 +349,22 @@ a {
     width: 25%;
 }
 
+.contact .icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .contact svg {
     width: 50px;
+    fill: white;
+    transition: 0.2s;
+    height: auto;
+}
+
+.contact svg:hover {
+    fill: gray;
 }
 
 .contact i {

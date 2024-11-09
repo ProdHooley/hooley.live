@@ -1,4 +1,4 @@
-export const SoundcloudIcon = ({ color }: { color: string }) => (
+export const SoundcloudIcon = () => (
     <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,6 @@ export const SoundcloudIcon = ({ color }: { color: string }) => (
         </metadata>
         <g
             transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-            fill={color}
             stroke="none">
             <path
                 d="M1628 2210 c-94 -17 -161 -42 -190 -70 l-28 -29 2 -641 3 -642 28
