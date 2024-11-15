@@ -45,7 +45,7 @@ export const TRACKS: TrackProps[] = [
     {
         id: 'face-fabc',
         imageId: 'song-4',
-        title: 'FACE FABC (Cover)',
+        title: 'FACE FABD (Cover)',
         artist: 'Hooley',
         length: '1:38',
         thumbnail: '/public/img/song4.jpg',
