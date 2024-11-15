@@ -6,9 +6,6 @@ export const DiscordIcon = () => (
         height="300.000000pt"
         viewBox="0 0 300.000000 300.000000"
         preserveAspectRatio="xMidYMid meet">
-        <metadata>
-            Created by potrace 1.10, written by Peter Selinger 2001-2011
-        </metadata>
         <g
             transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
             stroke="none">
