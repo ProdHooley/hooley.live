@@ -333,6 +333,12 @@ a {
     background-size: cover;
 }
 
+#song-6 .img {
+    background: url('/public/img/song6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 .hero p {
     color: #dbdbdb;
     color: #aeaeae;

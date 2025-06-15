@@ -10,6 +10,16 @@ export interface TrackProps {
 }
 
 export const TRACKS: TrackProps[] = [
+     {
+        id: 'euphoria',
+        imageId: 'song-6',
+        title: 'Euphoria',
+        artist: 'Hooley x Tony Ann',
+        length: '3:48',
+        thumbnail: '/public/img/song1.jpg',
+        youtube: 'https://www.youtube.com/watch?v=4WXmkoCGk1A',
+        spotify: 'https://open.spotify.com/track/372tKrcF32cVsQRVSojCNi?si=425d2f8c999946b3'
+    },
     {
         id: 'ethernity',
         imageId: 'song-1',
@@ -61,5 +71,5 @@ export const TRACKS: TrackProps[] = [
         thumbnail: '/public/img/song5.jpg',
         youtube: 'https://www.youtube.com/watch?v=x-FCh9V1-00',
         spotify: null
-    },
+    }
 ];
