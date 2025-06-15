@@ -1,6 +1,5 @@
 export interface TrackProps {
     id: string;
-    imageId: string;
     title: string;
     artist: string;
     length: string;
@@ -12,7 +11,6 @@ export interface TrackProps {
 export const TRACKS: TrackProps[] = [
     {
         id: 'euphoria',
-        imageId: 'song-6',
         title: 'Euphoria',
         artist: 'Hooley x Tony Ann',
         length: '3:48',
@@ -22,7 +20,6 @@ export const TRACKS: TrackProps[] = [
     },
     {
         id: 'ethernity',
-        imageId: 'song-1',
         title: 'Ethernity',
         artist: 'Hooley',
         length: '5:03',
@@ -33,7 +30,6 @@ export const TRACKS: TrackProps[] = [
     },
     {
         id: 'peter-pan-was-right',
-        imageId: 'song-2',
         title: 'Peter pan was right',
         artist: 'Hooley',
         length: '3:55',
@@ -43,7 +39,6 @@ export const TRACKS: TrackProps[] = [
     },
     {
         id: 'is-this-real',
-        imageId: 'song-3',
         title: 'Is this real?',
         artist: 'Hooley',
         length: '3:09',
@@ -54,7 +49,6 @@ export const TRACKS: TrackProps[] = [
     },
     {
         id: 'face-fabc',
-        imageId: 'song-4',
         title: 'FACE FABD (Cover)',
         artist: 'Hooley',
         length: '1:38',
@@ -64,7 +58,6 @@ export const TRACKS: TrackProps[] = [
     },
     {
         id: 'awakening',
-        imageId: 'song-5',
         title: 'Awakening',
         artist: 'Hooley x Berci',
         length: '1:59',

@@ -28,7 +28,7 @@ export const Preview = () => {
     if (!track) return <Navigate to="/not-found" replace={true} />;
 
     return (
-        <div className="preview-parent" id={track.imageId}>
+        <div className="preview-parent" id={track.id}>
             <div 
                 className="preview img"
                 style={{

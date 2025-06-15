@@ -12,7 +12,7 @@ const Track = (props: TrackProps) => {
     return (
         <div
             className="card"
-            id={props.imageId}
+            id={props.id}
             onMouseMove={handleMouseHover}
             onClick={() => navigate("/preview/" + props.id)}>
             <div className="card-content">
