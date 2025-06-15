@@ -228,6 +228,11 @@ a {
     z-index: 2;
 }
 
+.card > .card-content .img {
+    background-position: center;
+    background-size: cover;
+}
+
 .button-desktop {
     height: 260px;
     display: flex;
@@ -301,42 +306,6 @@ a {
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
-
-#song-1 .img {
-    background: url('/public/img/song1.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#song-2 .img {
-    background: url('/public/img/song2.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#song-3 .img {
-    background: url('/public/img/song3.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#song-4 .img {
-    background: url('/public/img/song4.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#song-5 .img {
-    background: url('/public/img/song5.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#song-6 .img {
-    background: url('/public/img/song6.jpg');
-    background-position: center;
-    background-size: cover;
 }
 
 .hero p {

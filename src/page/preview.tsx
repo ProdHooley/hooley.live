@@ -29,7 +29,12 @@ export const Preview = () => {
 
     return (
         <div className="preview-parent" id={track.imageId}>
-            <div className="preview img">
+            <div 
+                className="preview img"
+                style={{
+                        backgroundImage: `url(${track.thumbnail})`,
+                    }}
+                >
                 <div className="return">
                     <a href="/">Return to home</a>
                 </div>

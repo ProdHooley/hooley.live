@@ -10,17 +10,17 @@ const TRACKS_PER_PAGE = 3;
 const Track = (props: TrackProps) => {
     const navigate = useNavigate();
     return (
-    <div
-        className="card"
-        id={props.imageId}
-        onMouseMove={handleMouseHover}
-        onClick={() => navigate("/preview/" + props.id)}>
-        <div className="card-content">
-            <div className="img"></div>
-            <h1>{props.title}</h1>
-            <p>{props.artist}</p>
+        <div
+            className="card"
+            id={props.imageId}
+            onMouseMove={handleMouseHover}
+            onClick={() => navigate("/preview/" + props.id)}>
+            <div className="card-content">
+                <div className="img" style={{backgroundImage: `url(${props.thumbnail})`}}></div>
+                <h1>{props.title}</h1>
+                <p>{props.artist}</p>
+            </div>
         </div>
-    </div>
     )
 };
 
