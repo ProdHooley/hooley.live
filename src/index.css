@@ -164,6 +164,34 @@ a {
     margin: auto;
 }
 
+#cards .wrapper {
+    display: flex;
+    gap: 18px;
+}
+
+#cards .window {
+    overflow: hidden;
+    width: 640px;
+    height: auto;
+}
+
+#cards .window.mobile {
+    width: auto;
+    height: 834px;
+}
+
+#cards .wrapper {
+    display: flex;
+    gap: 18px;
+    transition: transform 0.4s ease;
+    will-change: transform;
+}
+
+
+#cards .wrapper.mobile {
+    flex-direction: column;
+}
+
 #cards:hover > .card::after {
     opacity: 1;
 }
@@ -177,9 +205,11 @@ a {
     flex-direction: column;
     position: relative;
     width: 200px;
+    min-width: 200px;
     box-sizing: border-box;
     backdrop-filter: blur(5px);
     transition: 0.3s;
+    user-select: none;
 }
 
 .card:hover {
@@ -188,7 +218,6 @@ a {
         0 6px 20px 0 #6160600f;
     transform: scale(1.01);
 }
-
 
 .card .img {
     box-sizing: border-box;
