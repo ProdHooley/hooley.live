@@ -169,7 +169,7 @@ a {
 }
 
 .card {
-    background-color: #322f2f34;
+    background-color: #5c575734;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -194,6 +194,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 200px;
+    border-radius: 5px;
 }
 
 .card h1 {
