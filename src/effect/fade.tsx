@@ -1,7 +1,7 @@
-const NAV_BACKGROUND = 'rgba(0, 0, 0, 0.4)';
+const NAV_BACKGROUND = 'rgba(0, 0, 0, 0.2)';
 const NAV_TRANSPARENT = 'rgba(255, 255, 255, 0)';
 
-const NAV_BLUR = 'blur(10px)';
+const NAV_BLUR = 'blur(2px)';
 const NAV_NO_BLUR = 'blur(0px)';
 
 export const handleNavEffect = (nav: HTMLDivElement) => {

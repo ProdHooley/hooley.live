@@ -19,6 +19,13 @@
     background: rgb(195, 194, 194);
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: none;
+}
+
 body {
     background: rgb(98, 65, 69);
     background: linear-gradient(
@@ -26,9 +33,32 @@ body {
         rgba(98, 65, 69, 1) 0%,
         rgba(2, 2, 3, 1) 70%
     );
+    background: url('/public/img/song6.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
-    height: 100%;
-    overflow: hidden;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.overlay {
+    background: url('/public/img/song6.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: auto;
+    z-index: -2;
+    inset: 0
+}
+
+.overlay .shadow {
+    background: #0000005a;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+    inset: 0
 }
 
 html {
@@ -139,7 +169,7 @@ a {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #322f2f34;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -148,18 +178,17 @@ a {
     position: relative;
     width: 200px;
     box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
 }
 
 .card:hover {
     box-shadow:
-        0 4px 8px 0 rgba(255, 255, 255, 0.082),
-        0 6px 20px 0 rgba(255, 255, 255, 0.059);
+        0 4px 8px 0 #59585815,
+        0 6px 20px 0 #6160600f;
+    transform: scale(1.01);
 }
 
-.card img {
-    box-sizing: border-box;
-    width: 100%;
-}
 
 .card .img {
     box-sizing: border-box;
@@ -243,7 +272,7 @@ a {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    fill: white;
+    fill: #ffffff82;
 }
 
 .button-desktop svg {
@@ -291,7 +320,7 @@ a {
 .buttons-mobile svg {
     width: 20px;
     height: auto;
-    fill: white;
+    fill: #ffffff82;
 }
 
 .buttons-mobile .wrapper {
@@ -335,17 +364,24 @@ a {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    transition: 0.3s;
 }
+
+.contact .icon a:hover {
+    transform: scale(1.1);
+}
+
 
 .contact svg {
     width: 50px;
-    fill: white;
+    fill: #ffffff91;
     transition: 0.2s;
     height: auto;
+    transition: 0.3s;
 }
 
 .contact svg:hover {
-    fill: gray;
+    fill: #ffffffb7;
 }
 
 .contact i {
