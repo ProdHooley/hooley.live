@@ -44,8 +44,6 @@ export const Tracks = () => {
     const [cursor, setCursor] = useState(0);
     const isMobile = useIsMobile();
 
-    const getTracks = () => TRACKS.slice(cursor, cursor + TRACKS_PER_PAGE);
-
     const moveCursor = (offset: number) => {
         let newCursor = cursor + offset;
         newCursor = Math.max(0, newCursor);
