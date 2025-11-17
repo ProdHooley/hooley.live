@@ -27,6 +27,7 @@ html, body {
 }
 
 body {
+    /*
     background: rgb(98, 65, 69);
     background: linear-gradient(
         160deg,
@@ -37,6 +38,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    */
     color: white;
     overflow: auto;
     position: relative;
@@ -45,6 +47,9 @@ body {
 
 .overlay {
     background: url('/public/img/song6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
     position: fixed;
